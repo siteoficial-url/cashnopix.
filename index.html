@@ -4,122 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CASH NO PIX - Confirmação</title>
-    
+
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #000; /* Fundo Preto */
-            color: #fff; /* Texto Branco */
+            background-color: #000;
+            color: #fff;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh; 
+            min-height: 100vh;
             margin: 0;
             text-align: center;
         }
 
         .container {
-            background-color: #1a1a1a; /* Cinza Escuro para o contêiner */
+            background-color: #1a1a1a;
             padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 255, 0, 0.2); 
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
             width: 100%;
             max-width: 500px;
         }
 
         h1 {
-            color: #00ff00; /* Título Verde */
-            font-size: 2.5em;
+            color: #00ff00;
+            font-size: 2.3em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
             margin-bottom: 20px;
         }
 
         p {
-            font-size: 1.2em;
+            font-size: 1.1em;
             line-height: 1.5;
-            margin-bottom: 40px;
-            color: #ccc; /* Cor de texto mais suave */
+            margin-bottom: 30px;
+            color: #ccc;
         }
 
-        /* Estilo do Botão de Contato (WhatsApp) */
         .btn-whatsapp {
             display: inline-block;
-            text-decoration: none;
             width: 100%;
-            padding: 15px;
-            background-color: #00ff00; /* Fundo Verde */
-            color: #000; /* Texto Preto */
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 1.2em;
+            padding: 18px;
+            background-color: #00ff00;
+            color: #000;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 1.3em;
             font-weight: bold;
-            transition: background-color 0.3s;
-            font-family: Arial, sans-serif; 
+            animation: pulse 1.5s infinite;
+            transition: transform 0.3s;
         }
 
         .btn-whatsapp:hover {
-            background-color: #33ff33; /* Verde mais claro no hover */
+            transform: scale(1.05);
+            background-color: #33ff33;
         }
-        
+
         .whatsapp-icon {
-            /* Símbolo de telefone/contato */
             margin-right: 10px;
-            font-weight: 900;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(0, 255, 0, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(0, 255, 0, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(0, 255, 0, 0); }
         }
     </style>
-    </head>
+</head>
 <body>
 
     <div class="container">
         <h1>CADASTRO CRIADO COM SUCESSO!</h1>
 
-        <p>Seu cadastro foi criado. Para garantir seu acesso ative agora o aplicativo, por favor, entre em contato abaixo.</p>
-        
-        <h2>Ative o Aplicativo Oficial</h2>
+        <p>
+            Seu cadastro foi criado com sucesso.  
+            Para liberar o acesso completo e ativar o aplicativo oficial, fale agora com nosso suporte.
+        </p>
 
-        <a href="https://wa.link/rwbx9o>
+        <h2>Ativação Imediata</h2>
+
+        <a href="https://wa.link/g7ivfw"
            target="_blank"
            class="btn-whatsapp">
-            <span class="whatsapp-icon">&#9990;</span> CONTATO PARA ATIVAR
+            <span class="whatsapp-icon">📲</span> ATIVAR AGORA PELO WHATSAPP
         </a>
-
     </div>
 
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
